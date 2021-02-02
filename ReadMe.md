@@ -1,5 +1,5 @@
 ## TensorFlow Model Library
-TensorFlow builds and maintains a model library (from which our own model is sourced) and it 
+This project is based on the model library built and maintained by TensorFlow. It 
 would be good to check for performance enhancements, bug fixes and new models. They provide a range of 
 object detection models in the research section and each have their own advantages in terms of speed, accuracy and 
 other performance metrics. Using the issues forum on this repository is also invaluable for solving bugs etc.
@@ -12,8 +12,10 @@ https://github.com/tensorflow/models
 - Clone this repository or alternatively the most up to date /models/research repository in TensorFlow 
 (some code may need to be modified).
 
+- Unzip the large_files folder from https://www.dropbox.com/s/9usb9e9qt5h2wic/large_files.zip?dl=0  into the models directory
+
 - Follow the instructions found here https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
-or use the tensorflow2_environment.yml file to create a virtual environment for tensorflow. Note; I found using
+or use the tensorflow2_environment.yml file to create a virtual environment for tensorflow. Note: I found using
 conda rather than pip to install as many packages as possible avoided issues with setup.
 
 ## Training and running the model

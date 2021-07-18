@@ -22,7 +22,7 @@ conda rather than pip to install as many packages as possible avoided issues wit
 
 ### Creating input data
 
-- create artificial data using the make_training script  in the Data Generation section and vary parameters such as dimmness, lattice
+- create artificial data using the make_training script  in the Billy's code section and vary parameters such as dimmness, lattice
 shape and size as required. Other noise/ background scattering could be added at this step.
 
 - Alternatively, use real lab data and label with a tool like 'LabelImg' such as detailed in this tutorial;
